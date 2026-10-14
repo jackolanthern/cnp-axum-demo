@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cnp-axum-demo</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f6f3ee; --ink: #1d1b18; --accent: #c2410c; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #171512; --ink: #f3efe8; --accent: #fb923c; } }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, sans-serif; }
+    main { max-width: 34rem; padding: 2rem 1rem; }
+    h1 { font-size: 2.2rem; margin: 0 0 .5rem; }
+    .tag { display: inline-block; padding: .15rem .6rem; border: 1px solid var(--accent); color: var(--accent); border-radius: 999px; font-size: .85rem; }
+    code { font-size: .95em; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="tag">Rust · Axum</span>
+    <h1>Déployé par CNP</h1>
+    <p>Cette application n'a aucun template CNP : son Dockerfile a été proposé par la génération IA, puis contrôlé par les garde-fous.</p>
+    <p>Santé : <code>/health</code> · Informations : <code>/api/info</code></p>
+  </main>
+</body>
+</html>
